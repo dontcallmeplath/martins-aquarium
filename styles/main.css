@@ -1,14 +1,23 @@
 body {
-  background-color: aquamarine;
+  background-image: radial-gradient(
+    rgb(164, 252, 222),
+    rgba(67, 185, 240, 0.7),
+    rgb(118, 249, 184)
+  );
   text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(2, 52, 44, 0.81);
 }
 
 div,
 h3,
-section,
-figure,
 article {
-  border: solid;
+  border: 1px dotted white;
+  border-radius: 2.5em;
+}
+
+h3 {
+  padding: 1em;
 }
 
 div {
@@ -22,8 +31,9 @@ article {
 }
 
 section {
-  flex-basis: 16%; /* Make each child element the same width */
+  flex-basis: 20%; /* Make each child element the same width */
   border: 1px dotted black;
+  border-radius: 2.5em;
   padding: 1em;
   margin: 0.5em;
 }
