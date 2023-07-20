@@ -1,0 +1,29 @@
+body {
+  background-color: aquamarine;
+  text-align: center;
+}
+
+div,
+h3,
+section,
+figure,
+article {
+  border: solid;
+}
+
+div {
+  margin-bottom: 5px;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+section {
+  flex-basis: 16%; /* Make each child element the same width */
+  border: 1px dotted black;
+  padding: 1em;
+  margin: 0.5em;
+}
