@@ -7,7 +7,7 @@ const database = {
       family: "Cichlidae",
       length: "15 cm",
       name: "Sunny",
-      found: "Lake Malawi near Tanzania",
+      found: "Tanzania",
       food: "algae and biofilm",
     },
     {
@@ -47,7 +47,7 @@ const database = {
       family: "Melanotaeniidae",
       length: "12 cm",
       name: "Melanie",
-      found: "Lake Kutubu of Papau New Guinea",
+      found: "Papau New Guinea",
       food: "small crustaceans, insect larvae, and algae",
     },
   ],

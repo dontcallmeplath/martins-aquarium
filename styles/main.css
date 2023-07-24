@@ -9,19 +9,29 @@ body {
   color: rgba(2, 52, 44, 0.81);
 }
 
+header {
+  border: 1px solid white;
+  border-radius: 2.5em;
+  margin-bottom: 15px;
+}
+
+img {
+  border: 1px solid white;
+  border-radius: 2.5em;
+  padding: 5px;
+}
+
 div,
 h3,
 article {
-  border: 1px dotted white;
+  border: 1px solid white;
   border-radius: 2.5em;
+  margin-bottom: 5px;
+  padding: 5px;
 }
 
 h3 {
   padding: 1em;
-}
-
-div {
-  margin-bottom: 5px;
 }
 
 article {
@@ -30,9 +40,9 @@ article {
   justify-content: space-evenly;
 }
 
-section {
+.fish-card {
   flex-basis: 20%; /* Make each child element the same width */
-  border: 1px dotted black;
+  border: 1px solid black;
   border-radius: 2.5em;
   padding: 1em;
   margin: 0.5em;
