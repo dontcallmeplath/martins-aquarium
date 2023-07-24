@@ -91,7 +91,7 @@ const database = {
   ],
 
   quotes: [
-    { id: 1, quote: "Aquariums, the source of life in a lifeless world." },
+    { id: 1, quote: "Aquariums are the source of life in a lifeless world." },
     { id: 2, quote: "Aquarium fish make us realize how beautiful silence is." },
     {
       id: 3,

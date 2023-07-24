@@ -40,7 +40,17 @@ article {
   justify-content: space-evenly;
 }
 
-.fish-card {
+.fish-card,
+.locale-card {
+  flex-basis: 20%; /* Make each child element the same width */
+  border: 1px solid black;
+  border-radius: 2.5em;
+  padding: 1em;
+  margin: 0.5em;
+}
+
+#careQuoteBox {
+  text-wrap: wrap;
   flex-basis: 20%; /* Make each child element the same width */
   border: 1px solid black;
   border-radius: 2.5em;
