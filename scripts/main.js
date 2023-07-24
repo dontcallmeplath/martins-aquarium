@@ -1,5 +1,16 @@
-import { getFishies } from "./database.js";
-import { FishList } from "./FishList.js";
+import { FishList } from "./fish/FishList.js";
+import { LocationList } from "./locations/LocationList.js";
+import { QuoteList } from "./tips/QuoteList.js";
+import { TipList } from "./tips/TipList.js";
 
-const parentHTMLElement = document.querySelector("#fishBox");
-parentHTMLElement.innerHTML = FishList();
+const fishParentElement = document.querySelector("#fishBox");
+fishParentElement.innerHTML = FishList();
+
+const locationParentElement = document.querySelector("#locationBox");
+locationParentElement.innerHTML = LocationList();
+
+const quoteParentElement = document.querySelector("#quoteBox");
+quoteParentElement.innerHTML = QuoteList();
+
+const careTipParentElement = document.querySelector("#careTipBox");
+careTipParentElement.innerHTML = TipList();
