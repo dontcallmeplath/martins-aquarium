@@ -13,6 +13,7 @@ header {
   border: 1px solid white;
   border-radius: 2.5em;
   margin-bottom: 15px;
+  box-shadow: 10px 5px 5px rgba(23, 130, 100, 0.5);
 }
 
 img {
@@ -26,34 +27,27 @@ h3,
 article {
   border: 1px solid white;
   border-radius: 2.5em;
-  margin-bottom: 5px;
+
   padding: 5px;
 }
 
 h3 {
   padding: 1em;
+  box-shadow: 10px 5px 5px rgba(23, 130, 100, 0.5);
 }
 
 article {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .fish-card,
-.locale-card {
-  flex-basis: 20%; /* Make each child element the same width */
-  border: 1px solid black;
-  border-radius: 2.5em;
-  padding: 1em;
-  margin: 0.5em;
-}
-
+.locale-card,
 #careQuoteBox {
-  text-wrap: wrap;
-  flex-basis: 20%; /* Make each child element the same width */
   border: 1px solid black;
   border-radius: 2.5em;
   padding: 1em;
-  margin: 0.5em;
+  margin: 1em;
+  box-shadow: 12px 12px 2px 1px rgba(23, 130, 100, 0.5);
 }

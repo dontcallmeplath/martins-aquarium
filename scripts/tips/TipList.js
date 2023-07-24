@@ -5,7 +5,7 @@ export const TipList = () => {
   let careString = "";
   for (const tip of tips) {
     careString += `<section class="tip-card">
-            <div class="tip">Care tip: ${tip.tip}</div>
+            <div class="tip">${tip.tip}</div>
             </section>`;
   }
   return careString;
